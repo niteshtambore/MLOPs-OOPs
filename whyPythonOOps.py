@@ -14,3 +14,5 @@ print(my_id_int.bit_count)                  # -> <built-in method bit_count of i
 print(my_name_str.upper())                  # -> NITESH
 print(my_dict.items())                      # -> dict_items([('Nitesh', 'Nitesh'), (1001, '1001')])
 print(my_list.count(1))                     # -> 2
+
+# Python is called an OOP language because everything in Python is an object, and every object is created from a class.
