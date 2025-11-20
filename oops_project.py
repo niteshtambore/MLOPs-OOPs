@@ -6,7 +6,6 @@ class ChatBox:
         self.user_name = ""
         self.user_password = ""
         self.is_loggedin = False
-        self.menu()
 
     def menu(self):
         user_input = input(("""Welcome to ChatBox..!, How would you like to proceed :
