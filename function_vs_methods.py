@@ -1,7 +1,7 @@
 from oops_project import ChatBox
 
 
-#Function -> ()
+# Function -> ()
 
 my_list = [1,2,3,4]
 print(len(my_list)) # -> len(mylist)
@@ -11,4 +11,5 @@ print(len(my_list)) # -> len(mylist)
 user1 = ChatBox()
 user1.signup()        # -> .chat() -> method
 
-# method is also a function which is written inside a class
+# A method is just a function inside a class, which you call using an object.
+# Functions stand alone, methods belong to objects.
