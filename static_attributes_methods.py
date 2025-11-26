@@ -5,7 +5,7 @@ class School:
     def __init__(self, name):
         self.count = School.__school_count      # instance attribute
         School.__school_count += 1
-        self.student_name = name                  # increment count for next student
+        self.student_name = name                # increment count for next student
 
 s1 = School("Nitesh")
 s2 = School("Yogesh")
